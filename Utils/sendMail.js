@@ -9,7 +9,7 @@ exports.sendMail = async (name, email, message) => {
   });
   const mailOptions = {
     from: "chetan.webtakersit@gmail.com",
-    to: "saprakaran001@gmail.com",
+    to: "Bestcreativeyouth@gmail.com",
     subject: "Test Mail",
     text: "Hello, this is a test mail!",
     html:`<table style="width: 100%; max-width: 600px; margin: 20px auto; border-collapse: collapse; background-color: #f9f9f9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
