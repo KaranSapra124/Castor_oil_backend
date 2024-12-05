@@ -3,12 +3,12 @@ exports.sendMail = async (name, email, message) => {
   const transporter = nodemailer.createTransport({
     service: "gmail", // Use a service like Gmail, Outlook, or custom SMTP
     auth: {
-      user: "chetan.webtakersit@gmail.com", // Your email address
-      pass: "heql gyto azmh vlgp", // Your email password (or app-specific password)
+      user: "dtechcastor@gmail.com", // Your email address
+      pass: "kpcz skfx zsie jplw", // Your email password (or app-specific password)
     },
   });
   const mailOptions = {
-    from: "chetan.webtakersit@gmail.com",
+    from: "dtechcastor@gmail.com",
     to: "sales@dtechcastor.com",
     subject: "Test Mail",
     text: "Hello, this is a test mail!",
